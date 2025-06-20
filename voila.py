@@ -3,7 +3,7 @@ def recherche():
     return render_template("index.html")
 
 
-echo "hello" > test
+
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))  # Render attribue automatiquement un port
